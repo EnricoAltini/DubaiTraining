@@ -1,0 +1,7 @@
+{
+  "name": "DUBAI-Training",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

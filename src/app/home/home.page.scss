@@ -1,0 +1,100 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content {
+  --background: url('/assets/panel2.jpg') no-repeat 100% 100%;
+}
+
+/* Ion-card 1 - Blu scuro */
+ion-card.card1 {
+  background-color: rgba(33, 47, 61, 0.8); /* Blu scuro con opacità 0.8 */
+}
+
+/* Ion-card 2 - Verde oliva */
+ion-card.card2 {
+  background-color: rgba(85, 107, 47, 0.8); /* Verde oliva con opacità 0.8 */
+}
+
+/* Ion-card 3 - Grigio ardesia */
+ion-card.card3 {
+  background-color: rgba(112, 128, 144, 0.8); /* Grigio ardesia con opacità 0.8 */
+}
+
+/* Ion-card 4 - Borgogna */
+ion-card.card4 {
+  background-color: rgba(128, 0, 32, 0.8); /* Borgogna con opacità 0.8 */
+}
+
+/* Ion-card 5 - Blu navy */
+ion-card.card5 {
+  background-color: rgba(0, 0, 128, 0.8); /* Blu navy con opacità 0.8 */
+}
+
+/* Ion-card Header */
+ion-card ion-card-header {
+  font-size: 1.5em; /* Dimensione del font */
+  font-weight: bold; /* Grassetto */
+  color: #fff; /* Colore del testo bianco */
+  text-transform: uppercase; /* Testo in maiuscolo */
+}
+
+/* Ion-card Content */
+ion-card {
+  font-size: 1.2em; /* Dimensione del font */
+  color: #f0f0f0; /* Colore del testo, un bianco più sfumato */
+  line-height: 1.5; /* Altezza della riga, spaziatura tra le righe */
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+ion-card-content {
+  font-size: 1em; /* Dimensione del font */
+  color: #f0f0f0; /* Colore del testo, un bianco più sfumato */
+  line-height: 1.5; /* Altezza della riga, spaziatura tra le righe */
+
+}
+
+ion-title {
+  font-family: 'Roboto', sans-serif; /* Usa il font Roboto */
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.flag-icon {
+  width: 30px; /* Regola la larghezza secondo le tue preferenze */
+  height: 20px; /* Regola l'altezza secondo le tue preferenze */
+  margin-right: 10px; /* Aggiunge spazio a destra del testo */
+}
